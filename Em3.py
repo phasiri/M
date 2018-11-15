@@ -934,7 +934,7 @@ def lineBot(op):
                 elif text.lower() == 'ปก':
                     me = line.getContact(lineMID)
                     cover = line.getProfileCoverURL(lineMID)    
-                    line.sendImageWithURL(msg.to, cover on
+                    line.sendImageWithURL(msg.to, cover on)
                 elif msg.text.lower().startswith("คท "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
                         names = re.findall(r'@(\w+)', text)
